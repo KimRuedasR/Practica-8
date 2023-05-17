@@ -32,12 +32,10 @@ public class Main {
             }
 
             if (base != null) {
-                base.Conectar();
-                base.Escribir();
-                base.Leer();
-                base.Desconectar();
+                base.showMenu();
             }
         } while (true);
     }
 }
+
 

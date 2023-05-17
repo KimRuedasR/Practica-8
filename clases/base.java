@@ -5,6 +5,5 @@ public interface base {
     void Escribir();
     void Leer();
     void Desconectar();
+    void showMenu();
 }
-
-
