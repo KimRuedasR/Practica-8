@@ -9,12 +9,13 @@ public class Main {
         base base = null;
 
         do {
+            System.out.println("\n*************************");
             System.out.println("Seleccione el medio de comunicación:");
             System.out.println("1. 5G");
             System.out.println("2. Wifi");
             System.out.println("3. Ethernet");
             System.out.println("4. Salir");
-
+            System.out.println("*************************\n");
             int opcion = scanner.nextInt();
 
             switch (opcion) {

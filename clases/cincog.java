@@ -9,12 +9,13 @@ public class cincog implements base {
         int choice;
 
         do {
+            System.out.println("\n*************************");
             System.out.println("Menu de opciones para 5G:");
             System.out.println("1. Conectar");
             System.out.println("2. Escribir");
             System.out.println("3. Leer");
             System.out.println("4. Desconectar");
-            System.out.println("5. Volver al menú principal");
+            System.out.println("*************************\n");
             System.out.print("Ingrese una opción: ");
 
             choice = scanner.nextInt();
@@ -31,8 +32,6 @@ public class cincog implements base {
                     break;
                 case 4:
                     Desconectar();
-                    break;
-                case 5:
                     return;
                 default:
                     System.out.println("Opción inválida. Intente nuevamente.");
@@ -45,21 +44,29 @@ public class cincog implements base {
 
     @Override
     public void Conectar() {
-        System.out.println("Conectado a 5G");
+        System.out.println("\n------------------");
+        System.out.println("--Conectado a 5G--");
+        System.out.println("------------------");
     }
 
     @Override
     public void Escribir() {
-        System.out.println("Escribir en 5G");
+        System.out.println("\n------------------");
+        System.out.println("--Escribir en 5G--");
+        System.out.println("------------------");
     }
 
     @Override
     public void Leer() {
-        System.out.println("Leer en 5G");
+        System.out.println("\n------------------");
+        System.out.println("----Leer en 5G----");
+        System.out.println("------------------");
     }
 
     @Override
     public void Desconectar() {
-        System.out.println("Desconectar de 5G");
+        System.out.println("\n----------------------");
+        System.out.println("--Desconectado de 5G--");
+        System.out.println("----------------------");
     }
 }
