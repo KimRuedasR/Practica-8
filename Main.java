@@ -1,7 +1,6 @@
 package practica8;
 
 import practica8.clases.*;
-
 import java.util.Scanner;
 
 public class Main {
